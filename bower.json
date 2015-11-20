@@ -1,0 +1,26 @@
+{
+  "name": "jquery-mailsuggest",
+  "main": "src/jquery.mailsuggest.js",
+  "keywords": [
+    "jquery",
+    "mailcheck",
+    "form validation",
+    "mail suggestion",
+    "suggestion"
+  ],
+  "authors": [
+    "Adam Štipák <adam.stipak@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/rekurzia/jquery-mailsuggest",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "mailcheck": "~1.1.1"
+  }
+}
