@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tests</title>
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <script src="../bower_components/mailcheck/src/mailcheck.js"></script>
+    <script src="../src/jquery.mailsuggest.js"></script>
+</head>
+<body>
+<div class="mailsuggest">
+    <input maxlength="300" style="width: 200px" type="text" class="mailsuggest-input">
+    <div class="mailsuggest-suggestion-wrapper">
+        Lorem
+        <a href="#" class="mailsuggest-suggestion"></a>
+        ipsum
+    </div>
+</div>
+<script>
+    $('.mailsuggest').mailsuggest();
+</script>
+</body>
+</html>
