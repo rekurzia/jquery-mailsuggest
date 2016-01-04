@@ -35,7 +35,6 @@ $.fn.mailsuggest = function (options) {
   var $suggestion = $wrapper.find('.mailsuggest-suggestion');
 
   $input.on('blur', function () {
-    console.log(settings);
     $(this).mailcheck(settings);
   });
 
