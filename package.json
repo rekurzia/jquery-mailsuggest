@@ -1,0 +1,10 @@
+{
+  "name": "jquery-mailsuggest",
+  "main": "src/jquery.mailsuggest.js",
+  "version": "1.0.0",
+  "author": "Adam Štipák <adam.stipak@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rekurzia/jquery-mailsuggest.git"
+  },
+}
